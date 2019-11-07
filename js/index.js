@@ -44,7 +44,7 @@ window.addEventListener("load", function(event) {
 
   const p = document.querySelector('p');
   p.addEventListener('copy', function(event){
-    alert('STOP WHAT YOUR DOING AND SHOW ME YOUR HANDS')
+    alert('Take it easy amigo. Cannot copy that!)
   });
 
   const img2 = document.querySelector('#img2');
@@ -59,5 +59,5 @@ window.addEventListener("load", function(event) {
   const navStop = document.querySelector('nav');
   navStop.addEventListener('click', function(event){
     event.preventDefault();
-    alert(`You can't click that!`);
+    alert(`Keep going, never give up!`);
   })
